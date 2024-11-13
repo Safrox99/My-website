@@ -1,0 +1,46 @@
+ <!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر ابن زويكي</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h>super market</h1>
+        <p> طعام متسمم باسعار غير معقولة</p>
+    </header>
+
+    <section class="products">
+        <div class="product">
+            <img src="table.jpg" alt="طاولة">
+            <h2>معمول ام صالح</h2>
+            <p>معمول منتهي له شهر</p>
+            <p class="price">السعر: 300 ريال</p>
+            <button onclick="addToCart()">أضف إلى السلة</button>
+        </div>
+        <div class="product">
+            <img src="chair.jpg" alt="كرسي">
+            <h2>كرسي غير مريح</h2>
+            <p>كرسي غير مريح بتصميم عصري لايناسب جميع الأذواق.</p>
+            <p class="price">السعر: 150 ريال</p>
+            <button onclick="addToCart()">أضف إلى السلة</button>
+        </div>
+    </section>
+
+    <!-- الصورة المخيفة -->
+    <div id="scaryImage" class="overlay">
+        <img src="scary.jpg" alt="صورة مخيفة">
+    </div>
+
+    <!-- الصوت المخيف -->
+    <audio id="scarySound" src="scary-sound.mp3"></audio>
+
+    <footer>
+        <p>&copy; 2024 متجر الأثاث. جميع الحقوق محفوظة.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
